@@ -1,4 +1,3 @@
-**README**
 # React Parcel Boilerplate
 This project was created with React-Parcel-Boilerplate by Jim Tseng
 ## The Idea

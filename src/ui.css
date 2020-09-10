@@ -158,8 +158,8 @@
 .grid-2column { grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) ); }
 .grid-3column { grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) ); }
 .grid-4column { grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) ); }
-.grid-sm-gap { grid-gap: 5px; }
-.grid-md-gap { grid-gap: 10px; }
+.grid-sm-gap { grid-gap: 10px; }
+.grid-md-gap { grid-gap: 20px; }
 
 /* -------- Loader Spinner */
 .loader {
@@ -281,5 +281,11 @@ div.card .cardcontent { padding: 10px; }
 
 .tags a:hover { background:#035c94; }
 
+
+/* -------- CSS Helpers */
+.center { text-align:center; }
+.pull-right { float: right; text-align: right; }
+.footer-bottom { font-size: 12px; position: absolute; bottom: 0; width: 100%; }
+.border-top-1 { border-top: 1px solid #ccc; }
 
 

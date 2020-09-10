@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-export const App = () => {
+import App from './App'
+
+export const UI = () => {
   return (
     <div className="container">
       <h1 className="my3">React Parcel Boilerplate!</h1>
